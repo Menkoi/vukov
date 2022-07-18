@@ -7,12 +7,13 @@ import Default from './img/default.png';
 
 // Create main menu JS
 // Create seperate file for box 
-// Add floor
+
 
 function Home() {
     const textureDef = useLoader(TextureLoader, Default)
     return (
         <div className='Main'>
+            <h1>VUKOV</h1>
             <Canvas>
             <ambientLight intensity={1} />
                 
@@ -25,15 +26,19 @@ function Home() {
 
                     {/* SkyBox */}
                     <Sky/>
-
-                    <Html> 
-                        <h1>VUKOV</h1> 
-                    </Html>
                     
+
                     {/* Default Box */}
                     <mesh>
                         <boxBufferGeometry/>
                         <meshStandardMaterial map={textureDef}/>
+                    </mesh>
+
+                    {/* Floor */}
+                    <mesh rotation={[4.7 , 0, 0]} position={[0, -0.5,0]}>
+                        <Html></Html>
+                        <planeGeometry args={[10, 10, 10]}></planeGeometry>
+                        <meshStandardMaterial color={'grey'}/>
                     </mesh>
 
                 </Suspense>
