@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/vukov/static/css/main.073c9b0a.css",
-    "main.js": "/vukov/static/js/main.38ed88a0.js",
+    "main.css": "/vukov/static/css/main.398ae8f0.css",
+    "main.js": "/vukov/static/js/main.998835ee.js",
     "static/js/787.d5b74c10.chunk.js": "/vukov/static/js/787.d5b74c10.chunk.js",
     "index.html": "/vukov/index.html",
-    "main.073c9b0a.css.map": "/vukov/static/css/main.073c9b0a.css.map",
-    "main.38ed88a0.js.map": "/vukov/static/js/main.38ed88a0.js.map",
+    "main.398ae8f0.css.map": "/vukov/static/css/main.398ae8f0.css.map",
+    "main.998835ee.js.map": "/vukov/static/js/main.998835ee.js.map",
     "787.d5b74c10.chunk.js.map": "/vukov/static/js/787.d5b74c10.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.38ed88a0.js"
+    "static/css/main.398ae8f0.css",
+    "static/js/main.998835ee.js"
   ]
 }
