@@ -1,7 +1,23 @@
+:root {
+  --primary-color: #424549;
+  --text-color: aliceblue;
+}
+
 .App {
   text-align: center;
 }
 
 .Main {
  height: 100vh !important;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+button {
+  background-color: black;
+  color: var(--text-color);
+  border: 5px;
 }

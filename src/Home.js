@@ -32,7 +32,6 @@ function Home() {
                     {/* Index */}
                     <Index/>
 
-
                 </Suspense>
             </Canvas>
         </div>  
