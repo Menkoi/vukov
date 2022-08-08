@@ -1,19 +1,21 @@
 import React, {Suspense} from 'react';
-import {Sky, OrbitControls, PerspectiveCamera, Html} from '@react-three/drei';
-import {Canvas, useLoader} from '@react-three/fiber';
-import { TextureLoader } from 'three/src/loaders/TextureLoader';
+import {Sky, OrbitControls, PerspectiveCamera} from '@react-three/drei';
+import {Canvas} from '@react-three/fiber';
 
-import Default from './img/default.png';
+import Index from "./components/index";
 
-// Create main menu JS
-// Create seperate file for box 
+// Add sphere to different parts of brain
+// give spheres HTML titles 
+// make spheres clickable to display more information
+// make more information appear from the right side of window
 
+// Add camera controls
 
 function Home() {
-    const textureDef = useLoader(TextureLoader, Default)
+    //const textureDef = useLoader(TextureLoader, Default)
     return (
         <div className='Main'>
-            <h1>VUKOV</h1>
+            <h1>Brain Anatomy</h1>
             <Canvas>
             <ambientLight intensity={1} />
                 
@@ -26,20 +28,10 @@ function Home() {
 
                     {/* SkyBox */}
                     <Sky/>
-                    
 
-                    {/* Default Box */}
-                    <mesh>
-                        <boxBufferGeometry/>
-                        <meshStandardMaterial map={textureDef}/>
-                    </mesh>
+                    {/* Index */}
+                    <Index/>
 
-                    {/* Floor */}
-                    <mesh rotation={[4.7 , 0, 0]} position={[0, -0.5,0]}>
-                        <Html></Html>
-                        <planeGeometry args={[10, 10, 10]}></planeGeometry>
-                        <meshStandardMaterial color={'grey'}/>
-                    </mesh>
 
                 </Suspense>
             </Canvas>
