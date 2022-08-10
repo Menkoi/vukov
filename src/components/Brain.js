@@ -1,6 +1,5 @@
 import React, { useRef }from "react";
 import { useGLTF} from "@react-three/drei";
-//import { useFrame } from "@react-three/fiber";
 
 import Brain from '../models/brain.glb';
 
@@ -21,4 +20,4 @@ export default function BrainImport({...props}) {
     )
 }
 
-//useGLTF.preload('/scene.gltf')
+useGLTF.preload(Brain)

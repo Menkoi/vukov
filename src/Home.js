@@ -20,7 +20,7 @@ function Home() {
                 <Suspense fallback={null}>
 
                     {/* Camera */}
-                    <PerspectiveCamera makeDefault position={[1.2,-0.1, 1.1]}/>
+                    <PerspectiveCamera makeDefault position={[0.8,0.5, 1]}/>
                     <OrbitControls/>
 
                     {/* SkyBox */}
@@ -31,6 +31,10 @@ function Home() {
 
                 </Suspense>
             </Canvas>
+
+            <div className='empty-info'>
+                <h1>Infomation will be displayed here</h1>
+            </div>
         </div> 
     )
 }

@@ -1,4 +1,4 @@
-import { Html } from "@react-three/drei";
+import {Sphere, Html } from "@react-three/drei";
 import React, { useRef, useState } from "react";
 import { useFrame } from "@react-three/fiber";
 
@@ -17,19 +17,21 @@ function FrontLobe() {
     useFrame(() => {
       ref.current.scale.set(0,0,0)
       ref.current.position.x = 0;
-      ref.current.position.y = 0.53;
-      ref.current.position.z = 0.45;
+      ref.current.position.y = 0.3;
+      ref.current.position.z = 0.46;
     });
 
     return (
       <group ref={ref}>
+
         <Html>
         <button onClick={handleOpen}>Frontal Lobe</button>
 
             {/* Modal Display */}
             <Modal show={show} onHide={handleClose} id="modal">
+                
                 <div className="modal-body">
-                <h1 closeButton>Frontal Lobe</h1>
+                <h1>Frontal Lobe</h1>
                 <p>*Show image of diagram here*</p>
                 <p>
                 Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde
@@ -86,9 +88,9 @@ function TemporalLobe() {
 
     useFrame(() => {
       ref.current.scale.set(0,0,0)
-      ref.current.position.x = 0.33;
-      ref.current.position.y = 0.2;
-      ref.current.position.z = 0.09;
+      ref.current.position.x = 0.37;
+      ref.current.position.y = 0;
+      ref.current.position.z = 0.1;
     });
 
     return (
@@ -130,8 +132,8 @@ function OccipitalLobe() {
     useFrame(() => {
       ref.current.scale.set(0,0,0)
       ref.current.position.x = 0;
-      ref.current.position.y = 0.2;
-      ref.current.position.z = -0.37;
+      ref.current.position.y = 0.06;
+      ref.current.position.z = -0.4;
     });
 
     return (
@@ -173,7 +175,7 @@ function ParietalLobe() {
     useFrame(() => {
       ref.current.scale.set(0,0,0)
       ref.current.position.x = 0;
-      ref.current.position.y = 0.56;
+      ref.current.position.y = 0.4;
       ref.current.position.z = -0.1;
     });
 
@@ -216,12 +218,13 @@ function BrainStem() {
     useFrame(() => {
       ref.current.scale.set(0,0,0)
       ref.current.position.x = 0;
-      ref.current.position.y = -0.21;
+      ref.current.position.y = -0.40;
       ref.current.position.z = 0.03;
     });
 
     return (
       <group ref={ref}>
+        <Sphere/>
           <Html>
             <button onClick={handleShow}>Brain Stem</button>
 

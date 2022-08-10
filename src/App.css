@@ -15,15 +15,14 @@
 body {
   background-color: black;
   color: var(--text-color);
+}
 
+h1, p {
+  color: var(--text-color);
+  text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
 }
 
 button {
-    top: 0;
-    left: 0;
-    z-index: 1;
-    margin-left: 15px;
-    margin-top: 15px;
     padding: 1em;
     width: 110px;
     color: #fff;
@@ -34,19 +33,22 @@ button {
     transition: opacity .5s;
 }
 
+button:hover {
+  opacity: 0.7;
+}
+
 /* Modal */
 .modal {
   border-radius: 5px;
   text-align: center;
   position: fixed;
   background: white;
-  width: 80%;
+  width: 90%;
   height: auto;
   top:77%;
   left:50%;
   transform: translate(-50%,-50%);
   background-color:var(--primary-color);
-  z-index: 1;
 }
 
 .modal-body {
@@ -54,3 +56,9 @@ button {
   height: 35vh;
   padding: 15px;
 }
+
+.empty-info {
+  padding-top: 20%;
+  font-style: italic;
+}
+
