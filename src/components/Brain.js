@@ -6,7 +6,6 @@ import Brain from '../models/brain.glb';
 
 
 export default function BrainImport({...props}) {
-    //const gltf = useGLTF(Brain);
     const group = useRef()
     const { nodes, materials } = useGLTF(Brain);
     return (
