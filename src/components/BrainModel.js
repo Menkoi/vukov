@@ -1,10 +1,9 @@
 import React, { useRef }from "react";
 import { useGLTF} from "@react-three/drei";
 
-import Brain from '../models/brain.glb';
+import Brain from "../models/brain.glb";
 
-
-export default function BrainImport({...props}) {
+export default function BrainModel({...props}) {
     const group = useRef()
     const { nodes, materials } = useGLTF(Brain);
     return (

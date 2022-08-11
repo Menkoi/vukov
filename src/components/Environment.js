@@ -2,12 +2,12 @@ import React, { useRef } from 'react';
 import { Sky, Shadow } from '@react-three/drei';
 import { useFrame } from '@react-three/fiber';
 
-
+// Ground Render
 function Floor() {
     const ref = useRef();
     useFrame(() => {
         ref.current.position.y = -0.5;
-        ref.current.rotation.x = -1.55;
+        ref.current.rotation.x = -1.57;
     });
 
     return (
@@ -20,6 +20,7 @@ function Floor() {
     )
 }
 
+// Background Skybox
 export default function Environment() {
     return (
         <group>
@@ -31,7 +32,8 @@ export default function Environment() {
                     color="black"
                     colorStop={0}
                     opacity={0.8}
-                    position={[0,-0.49,0]}/>
+                    position={[0,-0.49,0]}
+                    />
         </group>
     )
 }

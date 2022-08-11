@@ -42,9 +42,7 @@ button:hover {
   border-radius: 5px;
   text-align: center;
   position: fixed;
-  background: white;
   width: 90%;
-  height: auto;
   top:77%;
   left:50%;
   transform: translate(-50%,-50%);
