@@ -1,6 +1,6 @@
 :root {
   --primary-color: #424549;
-  --text-color: aliceblue;
+  --text-color: rgb(240, 248, 255);
 }
 
 .App {
@@ -13,7 +13,7 @@
 }
 
 body {
-  background-color: black;
+  background: black;
   color: var(--text-color);
 }
 
@@ -58,7 +58,6 @@ button:hover {
 }
 
 .empty-info {
-  padding-top: 20%;
+  padding-top: 10%;
   font-style: italic;
 }
-
