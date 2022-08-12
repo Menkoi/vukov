@@ -9,6 +9,9 @@ import BrainParts from "./components/BrainParts";
 // Import 3D scene
 import Environment from './components/Environment';
 
+// Fallback
+import Loading from './components/Loading'
+
 function Home() {
     return (
         <div className='Main'>
@@ -18,9 +21,7 @@ function Home() {
             </p>
             <Canvas>
             <ambientLight intensity={0.25} />
-                
-                {/* Need to add loading screen here */}
-                <Suspense fallback={null}>
+                <Suspense fallback={<Loading/>}>
 
                     {/* Landing Camera */}
                     <PerspectiveCamera makeDefault position={[0.8,0.5, 1]} />
@@ -29,12 +30,12 @@ function Home() {
                     <OrbitControls 
                     enableZoom={false}
                     enablePan={false}
-                    maxAzimuthAngle={Math.PI / 4}
+                    maxAzimuthAngle={Math.PI / 1}
                     maxPolarAngle={Math.PI}
-                    minAzimuthAngle={-Math.PI / 4}
+                    minAzimuthAngle={-Math.PI / 1}
                     minPolarAngle={0}/>
 
-                    {/* Skybox/Floor */}
+                    {/* Skybox */}
                     <Environment/>
                     
                     {/* Brain Model/Annotations */}

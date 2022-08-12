@@ -5,6 +5,9 @@ import { useFrame } from "@react-three/fiber";
 // Modal
 import Modal from 'react-bootstrap/Modal';
 
+// Images
+import Temporal from "../../img/Temporal.webp";
+
 export default function TemporalLobe() {
     //Sound/Speech Processing
     const ref = useRef();
@@ -28,6 +31,7 @@ export default function TemporalLobe() {
             <Modal show={show} onHide={handleClose} aria-labelledby="modal">
             <div className="modal-body">
                 <h1>Temporal Lobe</h1>
+                <img src={Temporal} className="modal-img" alt=""/>
                 <p>
                 Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde
                 commodi aspernatur enim, consectetur. Cumque deleniti temporibus
@@ -38,7 +42,7 @@ export default function TemporalLobe() {
                 deleniti rem!
                 </p>
 
-                <button variant="secondary" onClick={handleClose}>
+                <button className="modal-button" onClick={handleClose}>
                    Close
                 </button>
             </div>

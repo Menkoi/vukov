@@ -5,6 +5,9 @@ import { useFrame } from "@react-three/fiber";
 // Modal
 import Modal from 'react-bootstrap/Modal';
 
+// Images
+import Stem from "../../img/Stem.webp";
+
 export default function BrainStem() {
     //Sound/Speech Processing
     const ref = useRef();
@@ -29,6 +32,7 @@ export default function BrainStem() {
             <Modal show={show} onHide={handleClose} aria-labelledby="modal">
                 <div className="modal-body">
                 <h1>Brain Stem</h1>
+                <img src={Stem} className="modal-img" alt=""/>
                 <p>
                 Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde
                 commodi aspernatur enim, consectetur. Cumque deleniti temporibus
@@ -39,7 +43,7 @@ export default function BrainStem() {
                 deleniti rem!
                 </p>
 
-                <button variant="secondary" onClick={handleClose}>
+                <button className="modal-button" onClick={handleClose}>
                    Close
                 </button>
                 </div>

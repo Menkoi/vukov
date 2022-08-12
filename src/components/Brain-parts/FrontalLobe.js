@@ -5,6 +5,9 @@ import { useFrame } from "@react-three/fiber";
 // Modal
 import Modal from 'react-bootstrap/Modal';
 
+// Images
+import Frontal from "../../img/Frontal.webp";
+
 export default function FrontLobe() {
     //Thinking/Imagination
     const ref = useRef();
@@ -32,7 +35,7 @@ export default function FrontLobe() {
                 
                 <div className="modal-body">
                 <h1>Frontal Lobe</h1>
-                <p>*Show image of diagram here*</p>
+                <img src={Frontal} className="modal-img" alt=""/>
                 <p>
                 Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde
                 commodi aspernatur enim, consectetur. Cumque deleniti temporibus
@@ -69,8 +72,16 @@ export default function FrontLobe() {
                 reiciendis porro quo magni incidunt dolore amet atque facilis ipsum
                 deleniti rem!
                 </p>
-
-                <button onClick={handleClose}>Close</button>
+                <p>
+                Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde
+                commodi aspernatur enim, consectetur. Cumque deleniti temporibus
+                ipsam atque a dolores quisquam quisquam adipisci possimus
+                laboriosam. Quibusdam facilis doloribus debitis! Sit quasi quod
+                accusamus eos quod. Ab quos consequuntur eaque quo rem! Mollitia
+                reiciendis porro quo magni incidunt dolore amet atque facilis ipsum
+                deleniti rem!
+                </p>
+                <button className="modal-button" onClick={handleClose}>Close</button>
                 </div>
             </Modal>
           </Html>

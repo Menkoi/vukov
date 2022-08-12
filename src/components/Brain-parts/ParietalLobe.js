@@ -5,6 +5,9 @@ import { useFrame } from "@react-three/fiber";
 // Modal
 import Modal from 'react-bootstrap/Modal';
 
+// Images
+import Parietal from "../../img/Parietal.webp";
+
 export default function ParietalLobe() {
     //Sound/Speech Processing
     const ref = useRef();
@@ -27,6 +30,7 @@ export default function ParietalLobe() {
             <Modal show={show} onHide={handleClose} aria-labelledby="modal">
                 <div className="modal-body">
                 <h1>Parietal Lobe</h1>
+                <img src={Parietal} className="modal-img" alt=""/>
                 <p>
                 Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde
                 commodi aspernatur enim, consectetur. Cumque deleniti temporibus
@@ -37,7 +41,7 @@ export default function ParietalLobe() {
                 deleniti rem!
                 </p>
 
-                <button variant="secondary" onClick={handleClose}>
+                <button className="modal-button" onClick={handleClose}>
                    Close
                 </button>
 

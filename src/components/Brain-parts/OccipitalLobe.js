@@ -5,6 +5,9 @@ import { useFrame } from "@react-three/fiber";
 // Modal
 import Modal from 'react-bootstrap/Modal';
 
+// Images
+import Occipital from "../../img/Occipital.webp";
+
 export default function OccipitalLobe() {
     //visual Processing
     const ref = useRef();
@@ -28,6 +31,7 @@ export default function OccipitalLobe() {
             <Modal show={show} onHide={handleClose} aria-labelledby="modal">
                 <div className="modal-body">
                 <h1>Occipital Lobe</h1>
+                <img src={Occipital} className="modal-img" alt=""/>
                 <p>
                 Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde
                 commodi aspernatur enim, consectetur. Cumque deleniti temporibus
@@ -38,7 +42,7 @@ export default function OccipitalLobe() {
                 deleniti rem!
                 </p>
 
-                <button onClick={handleClose}>
+                <button className="modal-button" onClick={handleClose}>
                    Close
                 </button>
                 </div>    
