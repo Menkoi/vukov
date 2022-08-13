@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vukov/static/css/main.96a1de7c.css",
-    "main.js": "/vukov/static/js/main.f3d9b43f.js",
+    "main.js": "/vukov/static/js/main.9d17fc09.js",
     "static/js/787.d5b74c10.chunk.js": "/vukov/static/js/787.d5b74c10.chunk.js",
     "static/media/brain.glb": "/vukov/static/media/brain.fca194f956ed05a7d5dc.glb",
     "static/media/Frontal.webp": "/vukov/static/media/Frontal.af4537911c6419385eea.webp",
@@ -11,11 +11,11 @@
     "static/media/Occipital.webp": "/vukov/static/media/Occipital.e45b5cfd400d77476e5a.webp",
     "index.html": "/vukov/index.html",
     "main.96a1de7c.css.map": "/vukov/static/css/main.96a1de7c.css.map",
-    "main.f3d9b43f.js.map": "/vukov/static/js/main.f3d9b43f.js.map",
+    "main.9d17fc09.js.map": "/vukov/static/js/main.9d17fc09.js.map",
     "787.d5b74c10.chunk.js.map": "/vukov/static/js/787.d5b74c10.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.96a1de7c.css",
-    "static/js/main.f3d9b43f.js"
+    "static/js/main.9d17fc09.js"
   ]
 }
