@@ -15,7 +15,8 @@ import Loading from './components/Loading'
 function Home() {
     return (
         <div className='Main'>
-            <h1>Brain Anatomy</h1>
+            <h1>Neuroanatomy</h1>
+            <h2>Cerebral Cortex Lobes</h2>
             <p>Click the annotations to learn more
                 about different parts of the brain.
             </p>
