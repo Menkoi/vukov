@@ -96,12 +96,14 @@ export default function TemporalLobe() {
                 and support.
                 </p>
                 <h4>
-                <a href="https://www.medicalnewstoday.com/articles/temporal-lobe" target="_blank" rel="noreferrer">Medical News Today</a>
-                <p>Article medically reviewed by Heidi Moawad, M.D.</p>
+                <a href="https://www.medicalnewstoday.com/articles/temporal-lobe" target="_blank" rel="noreferrer">
+                  <p>Medical News Today - Article medically reviewed by Heidi Moawad, M.D.</p>
+                </a>
                 </h4>
                 <h4>
-                <a href="https://www.ncbi.nlm.nih.gov/books/NBK519512/" target="_blank" rel="noreferrer">National Library of Medicine</a>
-                <p>Written by Anand Patel, Grace Marie Nicole R. Biso, James B. Fowler</p>
+                <a href="https://www.ncbi.nlm.nih.gov/books/NBK519512/" target="_blank" rel="noreferrer">
+                  <p>National Library of Medicine - Written by Anand Patel, Grace Marie Nicole R. Biso, James B. Fowler</p>
+                </a>
                 </h4>
                 <button className="modal-button" onClick={handleClose}>
                    Close

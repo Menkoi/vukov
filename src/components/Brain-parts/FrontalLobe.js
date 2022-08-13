@@ -91,12 +91,14 @@ export default function FrontLobe() {
                 </p>
                 <h3>Sources</h3>
                 <h4>
-                <a href="https://www.medicalnewstoday.com/articles/318139#functions" target="_blank" rel="noreferrer">Medical News Today</a>
-                <p>Article medically reviewed by Heidi Moawad, M.D.</p>
+                <a href="https://www.medicalnewstoday.com/articles/318139#functions" target="_blank" rel="noreferrer">
+                 <p>Medical News Today - Article medically reviewed by Heidi Moawad, M.D.</p> 
+                </a>
                 </h4>
                 <h4>
-                <a href="https://www.webmd.com/brain/what-you-need-to-know-about-the-frontal-lobe" target="_blank" rel="noreferrer">WebMD</a>
-                <p>Article medically reviewed by Dan Brennan, M.D.</p>
+                <a href="https://www.webmd.com/brain/what-you-need-to-know-about-the-frontal-lobe" target="_blank" rel="noreferrer">
+                  <p>WebMD - Article medically reviewed by Dan Brennan, M.D.</p>
+                </a>
                 </h4>
                 <button className="modal-button" onClick={handleClose}>Close</button>
                 </div>
