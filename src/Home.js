@@ -15,11 +15,8 @@ import Loading from './components/Loading'
 function Home() {
     return (
         <div className='Main'>
-            <h1>Neuroanatomy</h1>
-            <h2>Cerebral Cortex Lobes</h2>
-            <p>Click the annotations to learn more
-                about different parts of the brain.
-            </p>
+            <h1>Cerebral Cortex Lobes</h1>
+
             <Canvas>
             <ambientLight intensity={0.25} />
                 <Suspense fallback={<Loading/>}>

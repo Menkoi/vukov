@@ -45,7 +45,7 @@ button:hover {
   border-radius: 5px;
   position: fixed;
   width: 90%;
-  top:77%;
+  top:75%;
   left:50%;
   transform: translate(-50%,-50%);
   background-image: linear-gradient(to right, #7f53ac 0, #657ced 100%);
@@ -62,7 +62,7 @@ button:hover {
 
 .modal-body {
   overflow-y: auto;
-  height: 35vh;
+  height: 40vh;
   padding: 25px;
 }
 
