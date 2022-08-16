@@ -95,6 +95,7 @@ export default function TemporalLobe() {
                 While there is no cure, there are options available to help cope with the condition like special learning tools 
                 and support.
                 </p>
+                <h3>Sources</h3>
                 <h4>
                 <a href="https://www.medicalnewstoday.com/articles/temporal-lobe" target="_blank" rel="noreferrer">
                   <p>Medical News Today - Article medically reviewed by Heidi Moawad, M.D.</p>

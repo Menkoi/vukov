@@ -28,7 +28,7 @@ button {
     width: 110px;
     color: #fff;
     background: rgba(0, 0, 0, 0.8);
-    border-radius: .5em;
+    border-radius: 5px;
     font-size: 12px;
     line-height: 1;
     transition: opacity .5s;
@@ -55,14 +55,14 @@ button:hover {
 
 .modal-img {
   width: 25%;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
   padding-right: 15px;
   float: left;
 }
 
 .modal-body {
   overflow-y: auto;
-  height: 40vh;
+  height: 41vh;
   padding: 25px;
 }
 

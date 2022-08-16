@@ -46,11 +46,6 @@ function Home() {
 
                 </Suspense>
             </Canvas>
-
-            {/* Need to change */}
-            <div className='empty-info'>
-                <h1>Information will be displayed here</h1>
-            </div>
         </div> 
     )
 }
