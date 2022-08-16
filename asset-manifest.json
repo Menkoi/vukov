@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vukov/static/css/main.968591d0.css",
-    "main.js": "/vukov/static/js/main.bb37127c.js",
+    "main.css": "/vukov/static/css/main.5ef699df.css",
+    "main.js": "/vukov/static/js/main.d80083e1.js",
     "static/js/787.d5b74c10.chunk.js": "/vukov/static/js/787.d5b74c10.chunk.js",
     "static/media/brain.glb": "/vukov/static/media/brain.fca194f956ed05a7d5dc.glb",
     "static/media/Frontal.webp": "/vukov/static/media/Frontal.af4537911c6419385eea.webp",
@@ -10,12 +10,12 @@
     "static/media/Parietal.webp": "/vukov/static/media/Parietal.f5fc67e5eda6f435729b.webp",
     "static/media/Occipital.webp": "/vukov/static/media/Occipital.e45b5cfd400d77476e5a.webp",
     "index.html": "/vukov/index.html",
-    "main.968591d0.css.map": "/vukov/static/css/main.968591d0.css.map",
-    "main.bb37127c.js.map": "/vukov/static/js/main.bb37127c.js.map",
+    "main.5ef699df.css.map": "/vukov/static/css/main.5ef699df.css.map",
+    "main.d80083e1.js.map": "/vukov/static/js/main.d80083e1.js.map",
     "787.d5b74c10.chunk.js.map": "/vukov/static/js/787.d5b74c10.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.968591d0.css",
-    "static/js/main.bb37127c.js"
+    "static/css/main.5ef699df.css",
+    "static/js/main.d80083e1.js"
   ]
 }
