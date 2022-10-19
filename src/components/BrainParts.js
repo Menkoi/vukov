@@ -8,7 +8,6 @@ import FrontalLobe from './Brain-parts/FrontalLobe';
 import TemporalLobe from "./Brain-parts/TemporalLobe";
 import OccipitalLobe from "./Brain-parts/OccipitalLobe";
 import ParietalLobe from "./Brain-parts/ParietalLobe";
-import BrainStem from "./Brain-parts/BrainStem";
 
 export default function BrainParts() {
     return (
@@ -18,7 +17,6 @@ export default function BrainParts() {
             <TemporalLobe/>
             <OccipitalLobe/>
             <ParietalLobe/>
-            <BrainStem/>
         </group>
     )
 }
