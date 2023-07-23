@@ -12,7 +12,3 @@ You can view the website here: https://menkoi.github.io/vukov/
 - React Three Fiber
 - React Three drei
 - Bootstrap
-
-## Contact Me
-  - Menkoi
-  - https://github.com/Menkoi
